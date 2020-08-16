@@ -7,7 +7,7 @@ module.exports = gql`
 	}
 	
  	type Query {
- 		user(name: String!): User
+ 		user(name: String!): [User]
     users: [User]
   }
 `;

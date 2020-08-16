@@ -1,0 +1,33 @@
+{
+	"name": "graphql-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "node src/main.js",
+		"dev": "nodemon src/main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hreyeslo/GraphQL-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hreyeslo/GraphQL-api/issues"
+	},
+	"homepage": "https://github.com/hreyeslo/GraphQL-api#readme",
+	"dependencies": {
+		"apollo-server": "^2.16.1",
+		"graphql": "^15.3.0",
+		"mongodb": "^3.6.0",
+		"mongoose": "^5.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"engines": {
+		"node": "12.18.x"
+	}
+}
